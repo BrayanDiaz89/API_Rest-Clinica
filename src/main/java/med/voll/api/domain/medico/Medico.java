@@ -31,7 +31,6 @@ public class Medico {
     @Embedded
     private Direccion direccion;
 
-
     public Medico(DatosRegistroMedico datosRegistroMedico) {
         this.activo = true;
         this.nombre = datosRegistroMedico.nombre();
